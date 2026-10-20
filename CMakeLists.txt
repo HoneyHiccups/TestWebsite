@@ -22,9 +22,7 @@ add_executable(testweb
     ProtoExample.cpp
 )
 
-# --- Link Wt ---
-# The Wt::Wt and Wt::HTTP imported targets carry include dirs,
-# link dirs, library names, and transitive dependencies automatically.
+
 target_link_libraries(testweb PRIVATE
     Wt::Wt
     Wt::HTTP

@@ -1,4 +1,4 @@
-# Install script for directory: /home/honey/Documents/Code/ProjectWebsite
+# Install script for directory: /home/honey_hiccups/Documents/CodeShit/TestWebsite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/honey/Documents/Code/ProjectWebsite/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/honey_hiccups/Documents/CodeShit/TestWebsite/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
